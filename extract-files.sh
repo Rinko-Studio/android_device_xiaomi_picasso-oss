@@ -62,6 +62,10 @@ function blob_fixup() {
         vendor/lib64/camera/components/com.mi.node.watermark.so)
             "${PATCHELF}" --add-needed "libwatermark_shim.so" "${2}"
             ;;
+	    vendor/bin/hw/android.hardware.camera.provider@2.4-service_64)
+            hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/A6000094/1F2003D5/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
+            mv "${TMPDIR}/${1##*/}" "${2}"
+            ;;
     esac
 }
 
