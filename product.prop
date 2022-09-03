@@ -9,7 +9,7 @@ audio.sys.routing.latency=0
 ro.af.client_heap_size_kbyte=7168
 
 # MIUI Camera
-ro.product.mod_device=thyme_global
+ro.product.mod_device=picasso_global
 vendor.camera.aux.packagelist=com.android.camera
 persist.vendor.camera.privapp.list=com.android.camera
 ro.com.google.lens.oem_camera_package=com.android.camera
