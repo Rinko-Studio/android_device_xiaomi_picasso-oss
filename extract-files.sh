@@ -66,6 +66,9 @@ function blob_fixup() {
             hexdump -ve '1/1 "%.2X"' "${2}" | sed "s/A6000094/1F2003D5/g" | xxd -r -p > "${TMPDIR}/${1##*/}"
             mv "${TMPDIR}/${1##*/}" "${2}"
             ;;
+        vendor/lib64/camera/components/com.mi.node.superlowlightraw.so)
+            "${PATCHELF}" --add-needed "libweakcount_shim.so" "${2}"
+	        ;;
     esac
 }
 
