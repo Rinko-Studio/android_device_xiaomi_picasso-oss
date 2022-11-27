@@ -44,7 +44,6 @@ allow miui_camera proc_stat:file rw_file_perms;
 
 binder_call(miui_camera, hal_camera_default);
 
-get_prop(miui_camera, vendor_camera_sensor_prop);
+get_prop(miui_camera, vendor_camera_prop);
 get_prop(miui_camera, vendor_fp_prop);
-get_prop(miui_camera, vendor_panel_prop);
 get_prop(miui_camera, vendor_persist_camera_prop)
