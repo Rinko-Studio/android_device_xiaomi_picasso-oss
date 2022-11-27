@@ -1257,7 +1257,6 @@ vendor/etc/sensors/config/sns_gyro_cal.json
 vendor/etc/sensors/config/sns_mag_cal.json
 vendor/etc/sensors/config/sns_mag_cal_legacy.json
 vendor/etc/sensors/config/sns_nonui.json
-vendor/etc/sensors/config/sns_oem13.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
@@ -1422,8 +1421,6 @@ vendor/etc/thermal-engine.conf
 vendor/etc/thermal-map.conf
 vendor/etc/thermal-nolimits.conf
 vendor/etc/thermal-normal.conf
-vendor/etc/thermal-per-camera.conf
-vendor/etc/thermal-per-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
