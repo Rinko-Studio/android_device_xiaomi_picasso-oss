@@ -437,10 +437,6 @@ lib64/libcameraservice.so|69639b4d2eaa00e27388221299322803a4bf3e5b
 -priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo,Camera2
 lib/libcamera_algoup_jni.xiaomi.so
 lib64/libcamera_algoup_jni.xiaomi.so
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-vendor/etc/init/android.hardware.camera.provider@2.4-service_64.rc
-vendor/lib/android.hardware.camera.provider@2.4-external.so
-vendor/lib/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib/camera.device@1.0-impl.so
 vendor/lib/camera.device@3.2-impl.so
 vendor/lib/camera.device@3.3-impl.so
@@ -449,14 +445,11 @@ vendor/lib/camera.device@3.4-impl.so
 vendor/lib/camera.device@3.5-external-impl.so
 vendor/lib/camera.device@3.5-impl.so
 vendor/lib/camera.device@3.6-external-impl.so
-vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib/libcamera2ndk_vendor.so
 vendor/lib/libgui_vendor.so
 vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib/vendor.qti.hardware.camera.device@2.0.so
 vendor/lib/vendor.qti.hardware.camera.device@3.5.so
-vendor/lib64/android.hardware.camera.provider@2.4-external.so
-vendor/lib64/android.hardware.camera.provider@2.4-legacy.so
 vendor/lib64/camera.device@1.0-impl.so
 vendor/lib64/camera.device@3.2-impl.so
 vendor/lib64/camera.device@3.3-impl.so
@@ -465,7 +458,6 @@ vendor/lib64/camera.device@3.4-impl.so
 vendor/lib64/camera.device@3.5-external-impl.so
 vendor/lib64/camera.device@3.5-impl.so
 vendor/lib64/camera.device@3.6-external-impl.so
-vendor/lib64/hw/android.hardware.camera.provider@2.4-impl.so
 vendor/lib64/libcamera2ndk_vendor.so
 vendor/lib64/libdng_sdk2vendor.so
 vendor/lib64/libgui_vendor.so
@@ -1260,7 +1252,7 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0.so
 
 
 # RIL (IMS) - from cupid-user-13-TKQ1.220630.001-V13.0.4.0.TLCMIXM-release-keys
--system_ext/app/ImsRcsService/ImsRcsService.apk|7e29c11b52bce9bdb33d0ea364faa13150b8cd08
+-system_ext/app/ImsRcsService/ImsRcsService.apk|93877b05f97ce9691f344b50512461b67a981b95
 system_ext/framework/vendor.qti.ims.connection-V1.0-java.jar|e01800d96b0db524836856410d3dd0b9352ec46c
 
 # Secure Element
